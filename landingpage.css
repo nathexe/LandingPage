@@ -1,0 +1,198 @@
+    .container1{
+    /* this is for the background of the first container */
+    background-color: #1f2937;
+    }
+    
+    .left {
+    /* This is to keep the header in an horizontal way */     
+    display: flex;
+    }
+            
+    .logo {
+    /* This is for the header logo*/        
+    display: flex;
+    padding-left: 100px; /* used 100 here because i wanted it to align with  (this website is awesome) */
+    padding-top: 20px;
+    align-items: center; /* to move the logo to the cneter of it box */
+    font-weight: bolder;
+    font-size: larger;
+    color: #f9faf8
+            }
+         
+    .links {
+    display: flex; /* to align the content in an horizontal way */
+    list-style-type: none; /* to remove the bullet point in the links */
+    margin-left: auto; /* to keep the link at the far right*/
+    font-weight: bold;
+    padding-left: 100px; /* had to use the same as the logo to get the same alignment on both sides */
+    padding-top: 20px; /* This was used to add space to the top as i didn't want the header to rest at the extreme top of the page */
+    }
+
+    .links a {
+    text-decoration: none; /* to remove underline */
+    margin: 20px;
+    color: #f9faf8; /* to give it the white color */
+    margin-left: auto; /*  to push it to the far end of the right hand side  */
+    }
+
+    .maintext {
+    font-size: 48px;
+    font-weight: 900;
+    display: flex ;
+    padding: 50px;
+    margin: 50px; /* gap between the maintext and the placeholder*/
+    color: #f9faf8
+            
+    }
+
+    .placeholder {
+    width: 700px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: #e0e0e0; /* Light gray background */
+    border: 2px dashed #ccc; /* Dashed border */
+    display: flex; /* For centering text */
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    color: #888; /* Placeholder text color */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Text size */
+    text-align: center; /* Text alignment */
+    }
+    
+    .awesome p {
+    /* wondering why i used a paragraph? i couldn't get the subtext to stay under the main text (this website is awesome) so i decided i just made it a paragraph and viola it worked */
+    font-size: 18px;
+    display: flex;
+    width: 400px; /* to keep the box short and not too long so the place holder will have enough space without squeezing */
+     }
+
+    .butons button {
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #1f2937;
+    }
+
+    
+    .box {
+    display: flex;
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+    .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 calc (25% 0px);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 2px;
+    margin: 10px;
+}
+
+    .contain {
+    display: flex;
+    background-color: white;
+    padding: 50px;
+    margin: 50px;
+}
+
+    .items p {
+    text-align: center;
+    font-weight: 0;
+    padding: 2px;
+    margin: 2px;
+    
+}
+
+    .container3 {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    padding: 80px;
+    margin: 50px;
+    border: 50px;
+    font-size: 36px;
+}
+
+.quote p {
+text-align: right;
+font-weight: bold;
+}
+
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+
+.action {
+    border: 2px solid grey;
+    background-color: skyblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: left;
+    width: 700px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.action p {
+font-size: 20px;
+}
+   
+
+
+button {
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    border-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover, button:active, button:focus {
+    color:black;
+    background-color: plum;
+}
+
+.action button {
+    margin-left: 20px;
+    align-items: center;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 40px;
+
+}
